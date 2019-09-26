@@ -81,8 +81,8 @@ def decrypt_ts(ts_info_generator):
                     is_split = True
                     is_first = False
                     yield True
-                back_data = back_data[:setting.BLOCK_LENGTH]
                 last_data = back_data[setting.BLOCK_LENGTH:]
+                back_data = back_data[:setting.BLOCK_LENGTH]
                 yield back_data
                 back_data = b''
     if not is_split:
