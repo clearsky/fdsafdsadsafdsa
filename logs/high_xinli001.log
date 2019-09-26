@@ -1,0 +1,913 @@
+[ERROR][2019-09-20 23:00:08,996] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-20 23:00:08,996] 上传失败，正在重试
+[ERROR][2019-09-20 23:26:01,760] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-20 23:26:01,760] 上传失败，正在重试
+[ERROR][2019-09-20 23:37:42,930] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-20 23:37:42,938] 上传失败，正在重试
+[ERROR][2019-09-20 23:38:13,006] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-20 23:38:33,212] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:10,864] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BF2A5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:10,866] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:11,883] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F13D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:11,884] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:12,891] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD40270>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:12,892] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:13,577] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD40F10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:13,578] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:13,900] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0A5D5F90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:13,900] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:14,591] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009CBA70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:14,592] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:14,907] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0E509D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:14,908] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:15,611] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F14350>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:15,612] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:15,918] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD402D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:15,920] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:16,624] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BF25F70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:16,625] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:16,933] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0E509D90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:16,934] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:17,641] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD40F10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:17,642] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:17,942] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009CB630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:17,943] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:18,657] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F08B50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:18,657] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:18,957] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F1BF10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:18,958] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:19,159] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009CB0D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:19,160] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:19,671] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009C69B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:19,672] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:19,967] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BEB0BB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:19,967] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:20,170] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F14390>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:20,170] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:20,687] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F86A50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:20,688] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:20,974] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BA03250>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:20,974] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:21,179] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009C6230>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:21,180] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:21,705] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F86690>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:21,706] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:21,982] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0CFD18F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:21,983] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:22,197] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00FC4610>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:22,198] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:22,727] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x00F137F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:22,729] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:28,976] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BEB0DB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:28,977] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009CB1B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:28,977] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:28,980] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:28,984] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0CF518F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:28,984] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:30,005] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x08468D10>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:30,009] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0CFD1830>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:30,009] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:30,010] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:30,010] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0CFD1A50>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:30,012] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:31,040] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BEF12B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:31,049] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x08468110>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:31,050] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:31,051] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009D3970>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:31,055] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:31,060] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:31,642] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E9%AB%98%E6%83%85%E5%95%86%E8%BF%9B%E9%98%B6+-+%E8%83%A1%E6%85%8E%E4%B9%8B%E7%9A%84%E5%85%B3%E7%B3%BB%E5%BF%83%E7%90%86%E5%AD%A6%E8%AF%BE%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E5%B0%8F%E6%97%B6%E5%80%99%E5%BD%A2%E6%88%90%E7%9A%84%E5%86%85%E5%9C%A8%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F%EF%BC%8C%E5%86%B3%E5%AE%9A%E4%BA%86%E4%BD%A0%E9%95%BF%E5%A4%A7%E5%90%8E%E7%9A%84%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB.mp4&uploadid=P1-MTAuNDYuMjcuMTE6MTU2ODk5NDA5MTo2MDk5NDE1MDkyOTI1Njc0MjE4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD40A30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:31,643] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:32,064] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BA03310>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:32,071] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:32,088] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD43750>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:32,089] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0BEF12B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:32,089] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:32,091] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:32,654] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E9%AB%98%E6%83%85%E5%95%86%E8%BF%9B%E9%98%B6+-+%E8%83%A1%E6%85%8E%E4%B9%8B%E7%9A%84%E5%85%B3%E7%B3%BB%E5%BF%83%E7%90%86%E5%AD%A6%E8%AF%BE%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E5%B0%8F%E6%97%B6%E5%80%99%E5%BD%A2%E6%88%90%E7%9A%84%E5%86%85%E5%9C%A8%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F%EF%BC%8C%E5%86%B3%E5%AE%9A%E4%BA%86%E4%BD%A0%E9%95%BF%E5%A4%A7%E5%90%8E%E7%9A%84%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB.mp4&uploadid=P1-MTAuNDYuMjcuMTE6MTU2ODk5NDA5MTo2MDk5NDE1MDkyOTI1Njc0MjE4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD40D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:32,655] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:32,803] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E6%96%BD%E7%90%AA%E5%98%89%E5%88%9B%E4%BC%A430%E8%AE%B2%EF%BC%9A%E8%B5%B0%E5%87%BA%E5%BF%83%E7%90%86%E9%98%B4%E5%BD%B1%EF%BC%8C%E9%87%8D%E5%A1%91%E5%BC%BA%E5%A4%A7%E5%86%85%E5%BF%83%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E5%88%9B%E4%BC%A4%E8%87%AA%E6%88%91%E7%96%97%E6%84%88%EF%BC%8C%E6%98%AF%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E4%BA%BA%E7%94%9F%E5%BF%85%E4%BF%AE%E8%AF%BE.mp4&uploadid=P1-MTAuMTUxLjQwLjMzOjE1Njg5OTQwOTM6NjA5OTQxNTM5OTkwMTM1MDkxNw%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DB4B0F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:32,804] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,088] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F21%E5%A0%82%E8%AF%BE%E5%91%8A%E5%88%AB%E7%A4%BE%E4%BA%A4%E6%81%90%E6%83%A7%EF%BC%8C%E6%8B%A5%E6%9C%89%E8%87%AA%E4%BF%A1%E7%A4%BE%E4%BA%A4%2F1-%E5%BC%80%E7%AF%87%E8%AF%8D%2F3-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E5%8C%97%E4%BA%AC%E5%9B%9E%E9%BE%99%E8%A7%82%E5%8C%BB%E9%99%A2%E5%BF%83%E7%90%86%E6%B2%BB%E7%96%97%E5%B8%88%E2%80%94%E5%BD%AD%E6%97%AD.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3MDo2MDk5NDA5NDUzMzA5NDA4NjY5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD67EB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,089] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,111] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%94%A8%E5%BF%83%E7%90%86%E5%AD%A6%E6%8F%90%E9%AB%98%E6%8A%97%E5%8E%8B%E8%83%BD%E5%8A%9B%EF%BC%8C%E5%A2%9E%E5%BC%BA%E5%BF%83%E7%90%86%E7%B4%A0%E8%B4%A8%2F2-%E6%8E%A8%E8%8D%90%E8%AF%8D%EF%BC%9A%E7%BE%8E%E5%9B%BD%E8%AE%A4%E7%9F%A5%E6%B2%BB%E7%96%97%E5%AD%A6%E9%99%A2%E7%9D%A3%E5%AF%BC%E5%B8%88+-+%E6%9D%A8%E5%8F%91%E8%BE%89.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA3OTo2MDk5NDExNzM2NDAxODA4Mzg4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0A5EBFB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,111] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E7%AB%A5%E5%B9%B4%E7%BC%BA%E5%A4%B1%E7%9A%84%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C%E5%A6%82%E4%BD%95%E5%9C%A8%E6%88%90%E5%B9%B4%E5%90%8E%E8%A1%A5%E8%B6%B3%EF%BC%9F%2F1-%E6%88%91%E4%B8%8E%E8%87%AA%E5%B7%B1%EF%BC%9A%E8%A1%A5%E8%B6%B3%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%8C+%E5%81%9A%E8%87%AA%E5%B7%B1%E7%9A%84%E9%87%8D%E8%A6%81%E4%BB%96%E4%BA%BA%2F1-%E5%BD%92%E5%9B%A0%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E6%88%90%E5%B9%B4%E5%90%8E%E7%9A%84%E6%88%91%E7%BB%8F%E5%B8%B8%E4%B8%8D%E5%BF%AB%E4%B9%90%EF%BC%9F%2F1-%E4%BB%80%E4%B9%88%E6%98%AF%E5%BF%83%E7%90%86%E8%90%A5%E5%85%BB%EF%BC%9F.mp4&uploadid=P1-MTAuMjI5LjkzLjMyOjE1Njg5OTM5ODk6NjA5OTM4NzUzNTgyMjcxNDM1OQ%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=2&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0CF79870>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,112] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,113] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,553] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F3%E5%88%86%E9%92%9F%E5%BF%83%E7%90%86%E5%AD%A6%EF%BC%9A%E6%AF%8F%E5%A4%A93%E5%88%86%E9%92%9F%EF%BC%8C%E8%8E%B7%E5%BE%971%E4%B8%AA%E5%BF%83%E7%90%86%E7%9F%A5%E8%AF%86%2F3-3.+%E5%85%B3%E4%BA%8E%E6%8B%A5%E6%8A%B1%E7%9A%847%E4%B8%AA%E4%BD%A0%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E5%A5%BD%E5%A4%84-rhosy.mp4&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2ODk5NDA5Mzo2MDk5NDE1NTk5NjM2Mzc5Nzc4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x009D3CF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,566] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,567] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E5%BC%A0%E5%BE%B7%E8%8A%AC%E5%BF%83%E7%81%B5%E6%88%90%E9%95%BF%E8%AF%BE+-+%E4%B8%83%E7%A7%8D%E5%8A%9B%E9%87%8F%EF%BC%8C%E5%A1%91%E9%80%A0%E4%BD%A0%E7%9A%84%E5%86%85%E5%9C%A8%E5%A5%B3%E7%A5%9E%2F2-%E9%A2%84%E5%A4%87%E8%AF%BE%EF%BC%9A%E7%BB%83%E4%B9%A0%E6%88%90%E4%B8%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E8%A7%82%E5%AF%9F%E8%80%85.mp4&uploadid=P1-MTAuNDYuNzQuMzI6MTU2ODk5NDA5Mzo2MDk5NDE1NTk4MTI1MTE5Njc4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0A5D57D0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,569] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,668] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E9%AB%98%E6%83%85%E5%95%86%E8%BF%9B%E9%98%B6+-+%E8%83%A1%E6%85%8E%E4%B9%8B%E7%9A%84%E5%85%B3%E7%B3%BB%E5%BF%83%E7%90%86%E5%AD%A6%E8%AF%BE%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E5%B0%8F%E6%97%B6%E5%80%99%E5%BD%A2%E6%88%90%E7%9A%84%E5%86%85%E5%9C%A8%E5%85%B3%E7%B3%BB%E6%A8%A1%E5%BC%8F%EF%BC%8C%E5%86%B3%E5%AE%9A%E4%BA%86%E4%BD%A0%E9%95%BF%E5%A4%A7%E5%90%8E%E7%9A%84%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB.mp4&uploadid=P1-MTAuNDYuMjcuMTE6MTU2ODk5NDA5MTo2MDk5NDE1MDkyOTI1Njc0MjE4&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0DD40D30>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,669] 上传失败，正在重试
+[ERROR][2019-09-20 23:41:33,918] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E6%96%BD%E7%90%AA%E5%98%89%E5%88%9B%E4%BC%A430%E8%AE%B2%EF%BC%9A%E8%B5%B0%E5%87%BA%E5%BF%83%E7%90%86%E9%98%B4%E5%BD%B1%EF%BC%8C%E9%87%8D%E5%A1%91%E5%BC%BA%E5%A4%A7%E5%86%85%E5%BF%83%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E5%88%9B%E4%BC%A4%E8%87%AA%E6%88%91%E7%96%97%E6%84%88%EF%BC%8C%E6%98%AF%E6%AF%8F%E4%B8%AA%E4%BA%BA%E7%9A%84%E4%BA%BA%E7%94%9F%E5%BF%85%E4%BF%AE%E8%AF%BE.mp4&uploadid=P1-MTAuMTUxLjQwLjMzOjE1Njg5OTQwOTM6NjA5OTQxNTM5OTkwMTM1MDkxNw%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0A5C77F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-20 23:41:33,921] 上传失败，正在重试
+[ERROR][2019-09-21 10:07:33,127] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:07:33,137] 上传失败，正在重试
+[ERROR][2019-09-21 10:07:35,816] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:07:35,826] 上传失败，正在重试
+[ERROR][2019-09-21 10:10:31,411] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:10:31,411] 上传失败，正在重试
+[ERROR][2019-09-21 10:11:11,952] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:11:11,952] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:09,289] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E4%BA%B2%E5%AF%86%E8%80%8C%E7%8B%AC%E7%AB%8B%EF%BC%8C%E6%B4%9E%E6%82%89%E7%88%B1%E6%83%85%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%2F3-%E8%A6%81%E9%81%87%E8%A7%81%E5%A4%9A%E5%B0%91%E4%B8%AA%E9%94%99%EF%BC%8C%E6%89%8D%E7%88%B1%E4%B8%8A%E8%BF%99%E4%B8%80%E4%B8%AA%E5%AF%B9%2F2-%E7%AB%A5%E5%B9%B4%E7%9A%84%E7%88%B6%E6%AF%8D%E7%88%B1%E4%B8%8E%E6%88%90%E5%B9%B4%E7%88%B1%E6%83%85%EF%BC%9A%E7%88%B1%E6%83%85%E8%84%9A%E6%9C%AC%E7%9A%84%E5%83%B5%E5%8C%96%E4%B8%8E%E6%88%90%E9%95%BF.mp4&uploadid=P1-MTAuMTQ2LjE2Mi40MzoxNTY5MDMxOTg5OjYxMDk1ODgxMjYzODk0OTQ4MjA%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0C2CAA70>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:09,290] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:10,301] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E4%BA%B2%E5%AF%86%E8%80%8C%E7%8B%AC%E7%AB%8B%EF%BC%8C%E6%B4%9E%E6%82%89%E7%88%B1%E6%83%85%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%2F3-%E8%A6%81%E9%81%87%E8%A7%81%E5%A4%9A%E5%B0%91%E4%B8%AA%E9%94%99%EF%BC%8C%E6%89%8D%E7%88%B1%E4%B8%8A%E8%BF%99%E4%B8%80%E4%B8%AA%E5%AF%B9%2F2-%E7%AB%A5%E5%B9%B4%E7%9A%84%E7%88%B6%E6%AF%8D%E7%88%B1%E4%B8%8E%E6%88%90%E5%B9%B4%E7%88%B1%E6%83%85%EF%BC%9A%E7%88%B1%E6%83%85%E8%84%9A%E6%9C%AC%E7%9A%84%E5%83%B5%E5%8C%96%E4%B8%8E%E6%88%90%E9%95%BF.mp4&uploadid=P1-MTAuMTQ2LjE2Mi40MzoxNTY5MDMxOTg5OjYxMDk1ODgxMjYzODk0OTQ4MjA%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x050EB110>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:10,301] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:11,315] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E4%BA%B2%E5%AF%86%E8%80%8C%E7%8B%AC%E7%AB%8B%EF%BC%8C%E6%B4%9E%E6%82%89%E7%88%B1%E6%83%85%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%2F3-%E8%A6%81%E9%81%87%E8%A7%81%E5%A4%9A%E5%B0%91%E4%B8%AA%E9%94%99%EF%BC%8C%E6%89%8D%E7%88%B1%E4%B8%8A%E8%BF%99%E4%B8%80%E4%B8%AA%E5%AF%B9%2F2-%E7%AB%A5%E5%B9%B4%E7%9A%84%E7%88%B6%E6%AF%8D%E7%88%B1%E4%B8%8E%E6%88%90%E5%B9%B4%E7%88%B1%E6%83%85%EF%BC%9A%E7%88%B1%E6%83%85%E8%84%9A%E6%9C%AC%E7%9A%84%E5%83%B5%E5%8C%96%E4%B8%8E%E6%88%90%E9%95%BF.mp4&uploadid=P1-MTAuMTQ2LjE2Mi40MzoxNTY5MDMxOTg5OjYxMDk1ODgxMjYzODk0OTQ4MjA%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0C2F9630>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:11,316] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:11,775] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E8%82%B2%E5%84%BF%E8%BE%BE%E4%BA%BA%E5%85%BB%E6%88%90%E8%AF%BE%E2%80%94%E4%B8%89%E6%AD%A5%E5%A5%A0%E5%AE%9A%E5%AD%A9%E5%AD%90%E7%9A%84%E4%BA%BA%E6%A0%BC%E5%BA%95%E8%89%B2%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E6%A0%BC%E5%BA%95%E8%89%B2%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81%EF%BC%9F.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2OTAzMTk5MTo2MTA5NTg4NzcxOTkzNjQyMjU5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0D34A810>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:11,775] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:12,340] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E4%BA%B2%E5%AF%86%E8%80%8C%E7%8B%AC%E7%AB%8B%EF%BC%8C%E6%B4%9E%E6%82%89%E7%88%B1%E6%83%85%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%2F3-%E8%A6%81%E9%81%87%E8%A7%81%E5%A4%9A%E5%B0%91%E4%B8%AA%E9%94%99%EF%BC%8C%E6%89%8D%E7%88%B1%E4%B8%8A%E8%BF%99%E4%B8%80%E4%B8%AA%E5%AF%B9%2F2-%E7%AB%A5%E5%B9%B4%E7%9A%84%E7%88%B6%E6%AF%8D%E7%88%B1%E4%B8%8E%E6%88%90%E5%B9%B4%E7%88%B1%E6%83%85%EF%BC%9A%E7%88%B1%E6%83%85%E8%84%9A%E6%9C%AC%E7%9A%84%E5%83%B5%E5%8C%96%E4%B8%8E%E6%88%90%E9%95%BF.mp4&uploadid=P1-MTAuMTQ2LjE2Mi40MzoxNTY5MDMxOTg5OjYxMDk1ODgxMjYzODk0OTQ4MjA%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0B96DCF0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:12,340] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:12,781] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E8%82%B2%E5%84%BF%E8%BE%BE%E4%BA%BA%E5%85%BB%E6%88%90%E8%AF%BE%E2%80%94%E4%B8%89%E6%AD%A5%E5%A5%A0%E5%AE%9A%E5%AD%A9%E5%AD%90%E7%9A%84%E4%BA%BA%E6%A0%BC%E5%BA%95%E8%89%B2%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E6%A0%BC%E5%BA%95%E8%89%B2%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81%EF%BC%9F.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2OTAzMTk5MTo2MTA5NTg4NzcxOTkzNjQyMjU5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x050EBE90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:12,782] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:13,212] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E5%82%AC%E7%9C%A0%E5%A4%A7%E5%B8%88%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E5%90%89%E5%88%A9%E6%A0%B9%EF%BC%9A%E7%88%B6%E6%AF%8D%E6%98%AF%E5%AD%A9%E5%AD%90%E5%A4%A9%E7%94%9F%E7%9A%84%E5%82%AC%E7%9C%A0%E5%B8%88%2F1-%E6%AD%A3%E5%90%91%E5%82%AC%E7%9C%A0%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E8%BF%9E%E6%8E%A5%E6%AD%A3%E5%90%91%E6%83%85%E7%BB%AA%E4%B8%AD%E5%BF%83%2F2-Introduction+of+positive+hypnosis.mp4&uploadid=P1-MTAuMTQ2LjE2Mi4zNzoxNTY5MDMxODMxOjYxMDk1NDU4OTA1MTI5MjIxODc%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=3&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0C2CABB0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:13,212] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:13,351] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E4%BA%B2%E5%AF%86%E8%80%8C%E7%8B%AC%E7%AB%8B%EF%BC%8C%E6%B4%9E%E6%82%89%E7%88%B1%E6%83%85%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%2F3-%E8%A6%81%E9%81%87%E8%A7%81%E5%A4%9A%E5%B0%91%E4%B8%AA%E9%94%99%EF%BC%8C%E6%89%8D%E7%88%B1%E4%B8%8A%E8%BF%99%E4%B8%80%E4%B8%AA%E5%AF%B9%2F2-%E7%AB%A5%E5%B9%B4%E7%9A%84%E7%88%B6%E6%AF%8D%E7%88%B1%E4%B8%8E%E6%88%90%E5%B9%B4%E7%88%B1%E6%83%85%EF%BC%9A%E7%88%B1%E6%83%85%E8%84%9A%E6%9C%AC%E7%9A%84%E5%83%B5%E5%8C%96%E4%B8%8E%E6%88%90%E9%95%BF.mp4&uploadid=P1-MTAuMTQ2LjE2Mi40MzoxNTY5MDMxOTg5OjYxMDk1ODgxMjYzODk0OTQ4MjA%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0D315E90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:13,352] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:13,789] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E8%82%B2%E5%84%BF%E8%BE%BE%E4%BA%BA%E5%85%BB%E6%88%90%E8%AF%BE%E2%80%94%E4%B8%89%E6%AD%A5%E5%A5%A0%E5%AE%9A%E5%AD%A9%E5%AD%90%E7%9A%84%E4%BA%BA%E6%A0%BC%E5%BA%95%E8%89%B2%2F1-%E5%8F%91%E5%88%8A%E8%AF%8D%EF%BC%9A%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E6%A0%BC%E5%BA%95%E8%89%B2%E5%A6%82%E6%AD%A4%E9%87%8D%E8%A6%81%EF%BC%9F.html&uploadid=N1-MjIyLjIxMS4xOTUuODg6MTU2OTAzMTk5MTo2MTA5NTg4NzcxOTkzNjQyMjU5&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0D34ACD0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:13,790] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:14,226] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E5%82%AC%E7%9C%A0%E5%A4%A7%E5%B8%88%E6%96%AF%E8%92%82%E8%8A%AC%C2%B7%E5%90%89%E5%88%A9%E6%A0%B9%EF%BC%9A%E7%88%B6%E6%AF%8D%E6%98%AF%E5%AD%A9%E5%AD%90%E5%A4%A9%E7%94%9F%E7%9A%84%E5%82%AC%E7%9C%A0%E5%B8%88%2F1-%E6%AD%A3%E5%90%91%E5%82%AC%E7%9C%A0%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E8%BF%9E%E6%8E%A5%E6%AD%A3%E5%90%91%E6%83%85%E7%BB%AA%E4%B8%AD%E5%BF%83%2F2-Introduction+of+positive+hypnosis.mp4&uploadid=P1-MTAuMTQ2LjE2Mi4zNzoxNTY5MDMxODMxOjYxMDk1NDU4OTA1MTI5MjIxODc%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=3&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0B97B090>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:14,227] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:14,364] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E4%BA%B2%E5%AF%86%E8%80%8C%E7%8B%AC%E7%AB%8B%EF%BC%8C%E6%B4%9E%E6%82%89%E7%88%B1%E6%83%85%E7%9A%84%E4%BA%8C%E5%8D%81%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%2F3-%E8%A6%81%E9%81%87%E8%A7%81%E5%A4%9A%E5%B0%91%E4%B8%AA%E9%94%99%EF%BC%8C%E6%89%8D%E7%88%B1%E4%B8%8A%E8%BF%99%E4%B8%80%E4%B8%AA%E5%AF%B9%2F2-%E7%AB%A5%E5%B9%B4%E7%9A%84%E7%88%B6%E6%AF%8D%E7%88%B1%E4%B8%8E%E6%88%90%E5%B9%B4%E7%88%B1%E6%83%85%EF%BC%9A%E7%88%B1%E6%83%85%E8%84%9A%E6%9C%AC%E7%9A%84%E5%83%B5%E5%8C%96%E4%B8%8E%E6%88%90%E9%95%BF.mp4&uploadid=P1-MTAuMTQ2LjE2Mi40MzoxNTY5MDMxOTg5OjYxMDk1ODgxMjYzODk0OTQ4MjA%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0C29CA90>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:14,364] 上传失败，正在重试
+[ERROR][2019-09-21 10:13:14,454] HTTPSConnectionPool(host='nj02ct01.pcs.baidu.com', port=443): Max retries exceeded with url: /rest/2.0/pcs/superfile2?method=upload&type=tmpfile&path=%2F%E5%A3%B9%E5%BF%83%E7%90%862.0%2F%E6%99%AE%E9%80%9A%2F%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF%2F%E6%9E%97%E7%B4%AB%E7%9A%84100%E5%A0%82%E5%BF%83%E7%90%86%E8%AF%BE%EF%BC%9A%E6%8E%A2%E7%B4%A2%E8%87%AA%E6%88%91%EF%BC%8C%E6%8C%96%E6%8E%98%E6%BD%9C%E8%83%BD%2F2-%E8%AE%A4%E8%AF%86%E8%87%AA%E5%B7%B1%EF%BC%8C%E4%B8%8D%E7%9B%B2%E7%9B%AE%2F1-%E7%AC%AC%E4%B8%80%E5%91%A8%EF%BC%9A%E6%8E%A2%E7%B4%A2%E6%88%91%EF%BC%8C%E4%BD%A0%E7%9C%9F%E7%9A%84%E4%BA%86%E8%A7%A3%E8%87%AA%E5%B7%B1%E5%90%97%EF%BC%9F+-+%E8%87%AA%E6%88%91%E6%A6%82%E5%BF%B5%2F2-%E7%88%B1%E6%88%96%E4%B8%8D%E7%88%B1%EF%BC%8C%E8%BA%AB%E4%BD%93%E4%BB%8E%E6%9D%A5%E4%B8%8D%E4%BC%9A%E8%AF%B4%E8%B0%8E+-+%E7%94%9F%E7%90%86%E8%87%AA%E6%88%91.mp4&uploadid=P1-MTAuMjI4LjU4LjI5OjE1NjkwMzE5OTQ6NjEwOTU4OTUxMzEyMzQwNDE0MA%3D%3D&app_id=250528&channel=chunlei&clienttype=0&web=1&uploadsign=0&partseq=0&bdstoken=b8831b49eb7b45a169219f66f5a8f640 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x0D3150B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[ERROR][2019-09-21 10:13:14,454] 上传失败，正在重试
+[ERROR][2019-09-21 10:17:11,630] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:17:11,631] 上传失败，正在重试
+[ERROR][2019-09-21 10:17:15,613] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:17:15,613] 上传失败，正在重试
+[ERROR][2019-09-21 10:17:33,931] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:17:33,931] 上传失败，正在重试
+[ERROR][2019-09-21 10:19:33,938] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:19:33,938] 上传失败，正在重试
+[ERROR][2019-09-21 10:20:13,478] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:20:13,478] 上传失败，正在重试
+[ERROR][2019-09-21 10:21:06,200] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:21:06,200] 上传失败，正在重试
+[ERROR][2019-09-21 10:25:49,899] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:25:49,899] 上传失败，正在重试
+[ERROR][2019-09-21 10:27:15,727] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:27:15,727] 上传失败，正在重试
+[ERROR][2019-09-21 10:28:40,874] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:28:40,874] 上传失败，正在重试
+[ERROR][2019-09-21 10:28:57,023] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:28:57,023] 上传失败，正在重试
+[ERROR][2019-09-21 10:31:29,276] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:31:29,276] 上传失败，正在重试
+[ERROR][2019-09-21 10:32:41,121] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:32:41,121] 上传失败，正在重试
+[ERROR][2019-09-21 10:33:20,986] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:33:20,986] 上传失败，正在重试
+[ERROR][2019-09-21 10:33:58,048] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:33:58,048] 上传失败，正在重试
+[ERROR][2019-09-21 10:34:28,135] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:34:28,135] 上传失败，正在重试
+[ERROR][2019-09-21 10:36:50,929] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:36:50,930] 上传失败，正在重试
+[ERROR][2019-09-21 10:39:23,721] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:39:23,722] 上传失败，正在重试
+[ERROR][2019-09-21 10:40:22,156] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 10:40:22,157] 上传失败，正在重试
+[ERROR][2019-09-21 10:41:43,171] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:41:43,172] 上传失败，正在重试
+[ERROR][2019-09-21 10:42:19,121] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:42:19,122] 上传失败，正在重试
+[ERROR][2019-09-21 10:42:45,818] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:42:45,819] 上传失败，正在重试
+[ERROR][2019-09-21 10:43:53,364] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:43:53,364] 上传失败，正在重试
+[ERROR][2019-09-21 10:44:54,533] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:44:54,533] 上传失败，正在重试
+[ERROR][2019-09-21 10:47:18,014] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:47:18,014] 上传失败，正在重试
+[ERROR][2019-09-21 10:48:40,107] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:48:40,107] 上传失败，正在重试
+[ERROR][2019-09-21 10:49:26,239] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:49:26,239] 上传失败，正在重试
+[ERROR][2019-09-21 10:51:21,260] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:51:21,260] 上传失败，正在重试
+[ERROR][2019-09-21 10:53:30,775] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:53:30,775] 上传失败，正在重试
+[ERROR][2019-09-21 10:58:14,699] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:58:14,699] 上传失败，正在重试
+[ERROR][2019-09-21 10:59:34,521] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 10:59:34,521] 上传失败，正在重试
+[ERROR][2019-09-21 11:00:13,402] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:00:13,412] 上传失败，正在重试
+[ERROR][2019-09-21 11:01:05,272] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:01:05,274] 上传失败，正在重试
+[ERROR][2019-09-21 11:01:50,326] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:01:50,326] 上传失败，正在重试
+[ERROR][2019-09-21 11:02:17,753] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:02:17,754] 上传失败，正在重试
+[ERROR][2019-09-21 11:05:18,510] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:05:18,511] 上传失败，正在重试
+[ERROR][2019-09-21 11:09:35,027] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 11:09:35,027] 上传失败，正在重试
+[ERROR][2019-09-21 11:13:37,484] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:13:37,484] 上传失败，正在重试
+[ERROR][2019-09-21 11:14:13,250] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:14:13,250] 上传失败，正在重试
+[ERROR][2019-09-21 11:14:19,261] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:14:19,261] 上传失败，正在重试
+[ERROR][2019-09-21 11:16:12,742] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:16:12,743] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 11:16:12,743] 上传失败，正在重试
+[ERROR][2019-09-21 11:16:12,744] 上传失败，正在重试
+[ERROR][2019-09-21 12:03:11,377] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 12:03:11,377] 上传失败，正在重试
+[ERROR][2019-09-21 12:06:15,067] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:06:15,067] 上传失败，正在重试
+[ERROR][2019-09-21 12:11:49,883] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 12:11:49,883] 上传失败，正在重试
+[ERROR][2019-09-21 12:15:07,094] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:15:07,095] 上传失败，正在重试
+[ERROR][2019-09-21 12:16:30,617] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:16:30,617] 上传失败，正在重试
+[ERROR][2019-09-21 12:16:55,075] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:16:55,075] 上传失败，正在重试
+[ERROR][2019-09-21 12:18:41,703] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:18:41,704] 上传失败，正在重试
+[ERROR][2019-09-21 12:19:49,604] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:19:49,604] 上传失败，正在重试
+[ERROR][2019-09-21 12:19:52,805] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:19:52,806] 上传失败，正在重试
+[ERROR][2019-09-21 12:21:26,689] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:21:26,691] 上传失败，正在重试
+[ERROR][2019-09-21 12:25:03,820] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:25:03,820] 上传失败，正在重试
+[ERROR][2019-09-21 12:26:19,459] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:26:19,460] 上传失败，正在重试
+[ERROR][2019-09-21 12:28:04,516] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:28:04,516] 上传失败，正在重试
+[ERROR][2019-09-21 12:29:32,732] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:29:32,733] 上传失败，正在重试
+[ERROR][2019-09-21 12:31:32,244] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:31:32,244] 上传失败，正在重试
+[ERROR][2019-09-21 12:31:45,964] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:31:45,965] 上传失败，正在重试
+[ERROR][2019-09-21 12:32:16,307] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 12:32:16,308] 上传失败，正在重试
+[ERROR][2019-09-21 12:33:30,792] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:33:30,792] 上传失败，正在重试
+[ERROR][2019-09-21 12:34:12,157] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:34:12,157] 上传失败，正在重试
+[ERROR][2019-09-21 12:35:22,758] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:35:22,758] 上传失败，正在重试
+[ERROR][2019-09-21 12:36:06,790] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:36:06,791] 上传失败，正在重试
+[ERROR][2019-09-21 12:37:02,059] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:37:02,060] 上传失败，正在重试
+[ERROR][2019-09-21 12:39:58,459] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 12:39:58,459] 上传失败，正在重试
+[ERROR][2019-09-21 12:40:30,298] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:40:30,298] 上传失败，正在重试
+[ERROR][2019-09-21 12:41:04,876] ('Connection aborted.', ConnectionAbortedError(10053, '你的主机中的软件中止了一个已建立的连接。', None, 10053, None))
+[ERROR][2019-09-21 12:41:04,876] 上传失败，正在重试
+[ERROR][2019-09-21 12:41:32,950] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:41:32,950] 上传失败，正在重试
+[ERROR][2019-09-21 12:42:57,716] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:42:57,716] 上传失败，正在重试
+[ERROR][2019-09-21 12:43:21,299] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:43:21,300] 上传失败，正在重试
+[ERROR][2019-09-21 12:45:37,064] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:45:37,064] 上传失败，正在重试
+[ERROR][2019-09-21 12:46:56,544] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:46:56,544] 上传失败，正在重试
+[ERROR][2019-09-21 12:47:11,935] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-21 12:47:11,945] 上传失败，正在重试
+[ERROR][2019-09-25 23:21:53,274] ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')"))
+[ERROR][2019-09-25 23:21:53,275] 上传失败，正在重试
+[ERROR][2019-09-25 23:23:39,208] ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')"))
+[ERROR][2019-09-25 23:23:39,208] 上传失败，正在重试
+[ERROR][2019-09-25 23:24:04,056] ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')"))
+[ERROR][2019-09-25 23:24:04,056] 上传失败，正在重试
+[ERROR][2019-09-26 11:32:00,485] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 190, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 139, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 39, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[CRITICAL][2019-09-26 11:32:00,495] Exception in worker
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 190, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 139, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 39, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 80, in _worker
+    work_item.run()
+  File "D:\Python\lib\concurrent\futures\thread.py", line 59, in run
+    self.future.set_exception(exc)
+  File "D:\Python\lib\concurrent\futures\_base.py", line 537, in set_exception
+    self._invoke_callbacks()
+  File "D:\Python\lib\concurrent\futures\_base.py", line 324, in _invoke_callbacks
+    callback(self)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 24, in thread_pool_callback
+    exit(-3)
+  File "D:\Python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -3
+[ERROR][2019-09-26 11:39:51,073] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 190, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 139, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 39, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[ERROR][2019-09-26 11:41:35,431] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 191, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 40, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[ERROR][2019-09-26 11:44:00,547] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 195, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 144, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 44, in get_vedio_by_vid
+    raise e
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 41, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[ERROR][2019-09-26 11:44:43,370] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 195, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 144, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 44, in get_vedio_by_vid
+    raise e
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 41, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[ERROR][2019-09-26 11:50:10,450] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 190, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 139, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 39, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[ERROR][2019-09-26 11:50:55,140] Worker return exception: string index out of range
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 192, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 139, in get_data_and_upload
+    video_data_generator = get_vedio_by_vid(vid=vid)  # 返回一个生成器
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 39, in get_vedio_by_vid
+    m3u8_url = 'http://hls.videocc.net/605ea32bee/{}/{}.m3u8'.format(vid[-3], t_vid)
+IndexError: string index out of range
+[ERROR][2019-09-26 11:54:25,189] Worker return exception: 错误信息:获取：/壹心理7.0/专业/基础入门/孩子的“十万个为什么”怎么答？/1-刘晓东老师推荐.mp4的UpLoadId失败|返回信息:None
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 472, in wrap_socket
+    cnx.do_handshake()
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1639, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (10054, 'WSAECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 370, in connect
+    ssl_context=context)
+  File "D:\Python\lib\site-packages\urllib3\util\ssl_.py", line 355, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 478, in wrap_socket
+    raise ssl.SSLError('bad handshake: %r' % e)
+ssl.SSLError: ("bad handshake: SysCallError(10054, 'WSAECONNRESET')",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569470060549 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 105, in get_upload_id
+    data=data,
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569470060549 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 193, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    BDTools.upload_file(video_data_generator, video_path)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 219, in upload_file
+    upload_id = get_upload_id(net_file_path, s, is_split=False)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 114, in get_upload_id
+    raise BDError.GetUploadIdError(net_file_path, None)
+core.error.BDError.GetUploadIdError: 错误信息:获取：/壹心理7.0/专业/基础入门/孩子的“十万个为什么”怎么答？/1-刘晓东老师推荐.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 11:57:40,513] Worker return exception: 错误信息:获取：/壹心理7.0/专业/技能提升/心理危机干预与自杀防治/1-课程预告及讲师自我介绍 - 彭旭.mp4的UpLoadId失败|返回信息:None
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 472, in wrap_socket
+    cnx.do_handshake()
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1639, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (10054, 'WSAECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 370, in connect
+    ssl_context=context)
+  File "D:\Python\lib\site-packages\urllib3\util\ssl_.py", line 355, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 478, in wrap_socket
+    raise ssl.SSLError('bad handshake: %r' % e)
+ssl.SSLError: ("bad handshake: SysCallError(10054, 'WSAECONNRESET')",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569470257949 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 106, in get_upload_id
+    verify=False
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569470257949 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 193, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    BDTools.upload_file(video_data_generator, video_path)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 213, in upload_file
+    upload_id = get_upload_id(net_file_path, s)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 115, in get_upload_id
+    raise BDError.GetUploadIdError(net_file_path, None)
+core.error.BDError.GetUploadIdError: 错误信息:获取：/壹心理7.0/专业/技能提升/心理危机干预与自杀防治/1-课程预告及讲师自我介绍 - 彭旭.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:01:51,633] Worker return exception: 错误信息:创建文件：/壹心理7.0/普通/个人成长/在大部分人都懒得动脑的时代，如何与别人拉开认知差距？/1-课程介绍.mp4失败|返回信息:None
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Python\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "D:\Python\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "D:\Python\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 368, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "D:\Python\lib\site-packages\urllib3\packages\six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 387, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 2, in raise_from
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 383, in _make_request
+    httplib_response = conn.getresponse()
+  File "D:\Python\lib\http\client.py", line 1336, in getresponse
+    response.begin()
+  File "D:\Python\lib\http\client.py", line 306, in begin
+    version, status, reason = self._read_status()
+  File "D:\Python\lib\http\client.py", line 275, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 186, in creat_path
+    data=data,
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 193, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    BDTools.upload_file(video_data_generator, video_path)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 232, in upload_file
+    creat_path(content_length, md5_list, net_file_path, upload_id, s)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 195, in creat_path
+    raise BDError.CreataBDFileError(net_file_path, None)
+core.error.BDError.CreataBDFileError: 错误信息:创建文件：/壹心理7.0/普通/个人成长/在大部分人都懒得动脑的时代，如何与别人拉开认知差距？/1-课程介绍.mp4失败|返回信息:None
+[ERROR][2019-09-26 12:03:28,708] Worker return exception: 错误信息:获取：/壹心理7.0/专业/基础入门/个案观摩：大师亲授如何完整接个案/1-个案观摩-人本存在 - Mark.mp4的UpLoadId失败|返回信息:None
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 472, in wrap_socket
+    cnx.do_handshake()
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1639, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (10054, 'WSAECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 370, in connect
+    ssl_context=context)
+  File "D:\Python\lib\site-packages\urllib3\util\ssl_.py", line 355, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 478, in wrap_socket
+    raise ssl.SSLError('bad handshake: %r' % e)
+ssl.SSLError: ("bad handshake: SysCallError(10054, 'WSAECONNRESET')",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569470604168 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 105, in get_upload_id
+    data=data,
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569470604168 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 193, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    BDTools.upload_file(video_data_generator, video_path)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 210, in upload_file
+    upload_id = get_upload_id(net_file_path, s)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 114, in get_upload_id
+    raise BDError.GetUploadIdError(net_file_path, None)
+core.error.BDError.GetUploadIdError: 错误信息:获取：/壹心理7.0/专业/基础入门/个案观摩：大师亲授如何完整接个案/1-个案观摩-人本存在 - Mark.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:10:18,546] Worker return exception: 错误信息:获取：/壹心理7.0/专业/基础入门/鲸鱼修习室/1-鲸鱼修习室｜从入门到职业化，咨询师的发展之路（广州）.mp4的UpLoadId失败|返回信息:None
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 472, in wrap_socket
+    cnx.do_handshake()
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1915, in do_handshake
+    self._raise_ssl_error(self._ssl, result)
+  File "D:\Python\lib\site-packages\OpenSSL\SSL.py", line 1639, in _raise_ssl_error
+    raise SysCallError(errno, errorcode.get(errno))
+OpenSSL.SSL.SysCallError: (10054, 'WSAECONNRESET')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 603, in urlopen
+    chunked=chunked)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 344, in _make_request
+    self._validate_conn(conn)
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 843, in _validate_conn
+    conn.connect()
+  File "D:\Python\lib\site-packages\urllib3\connection.py", line 370, in connect
+    ssl_context=context)
+  File "D:\Python\lib\site-packages\urllib3\util\ssl_.py", line 355, in ssl_wrap_socket
+    return context.wrap_socket(sock, server_hostname=server_hostname)
+  File "D:\Python\lib\site-packages\urllib3\contrib\pyopenssl.py", line 478, in wrap_socket
+    raise ssl.SSLError('bad handshake: %r' % e)
+ssl.SSLError: ("bad handshake: SysCallError(10054, 'WSAECONNRESET')",)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "D:\Python\lib\site-packages\urllib3\connectionpool.py", line 641, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "D:\Python\lib\site-packages\urllib3\util\retry.py", line 399, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569471013655 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 105, in get_upload_id
+    data=data,
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 581, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "D:\Python\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "D:\Python\lib\site-packages\requests\adapters.py", line 514, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='pan.baidu.com', port=443): Max retries exceeded with url: /api/precreate?startLogTime=1569471013655 (Caused by SSLError(SSLError("bad handshake: SysCallError(10054, 'WSAECONNRESET')")))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 193, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    BDTools.upload_file(video_data_generator, video_path)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 210, in upload_file
+    upload_id = get_upload_id(net_file_path, s)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 34, in _wrapper
+    raise ex
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 114, in get_upload_id
+    raise BDError.GetUploadIdError(net_file_path, None)
+core.error.BDError.GetUploadIdError: 错误信息:获取：/壹心理7.0/专业/基础入门/鲸鱼修习室/1-鲸鱼修习室｜从入门到职业化，咨询师的发展之路（广州）.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:11:47,496] ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+[ERROR][2019-09-26 12:12:20,870] 错误信息:获取：/壹心理7.0/专业/基础入门/孩子的“十万个为什么”怎么答？/1-刘晓东老师推荐.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:12:27,897] 错误信息:获取：/壹心理7.0/专业/基础入门/练就扎实心理咨询基本功 - 李明/1-系列课开学典礼（一） - 岳晓东.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:12:30,718] 错误信息:获取：/壹心理7.0/专业/基础入门/孩子的“十万个为什么”怎么答？/1-刘晓东老师推荐.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:12:37,043] 错误信息:获取：/壹心理7.0/专业/基础入门/关于抑郁，你不得不知的三个真相/1-关于抑郁，你不得不知的三个真相.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:12:41,647] 错误信息:获取：/壹心理7.0/专业/基础入门/如何成为一名专业心理咨询师/1-先导课.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:12:54,520] Data must be padded to 16 byte boundary in CBC mode
+[ERROR][2019-09-26 12:12:54,520] Worker return exception: -1
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\VedioTools.py", line 60, in decrypt_ts
+    temp_data = aes.decrypt(ts_data)
+  File "D:\Python\lib\site-packages\Crypto\Cipher\_mode_cbc.py", line 246, in decrypt
+    raise ValueError("Data must be padded to %d byte boundary in CBC mode" % self.block_size)
+ValueError: Data must be padded to 16 byte boundary in CBC mode
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python\lib\concurrent\futures\thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 193, in get_course_data
+    get_data_and_upload(vid, temp_path, bd_files, course_id, player_id)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\Xinli001Tools.py", line 140, in get_data_and_upload
+    BDTools.upload_file(video_data_generator, video_path)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\SpiderTools.py", line 30, in _wrapper
+    result = func(*args, **kwargs)
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\BDTools.py", line 208, in upload_file
+    if next(file_generator):
+  File "C:\Users\Administrator\PycharmProjects\壹心理重构\core\tools\VedioTools.py", line 63, in decrypt_ts
+    exit(-1)
+  File "D:\Python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+[ERROR][2019-09-26 12:17:59,613] 错误信息:获取：/壹心理7.0/专业/基础入门/风口当前，心理学行业该如何才能万物生？｜第二届中国心理学创新峰会/1-全球视角探索心理学市场新机会/1-开幕式.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:02,132] 错误信息:获取：/壹心理7.0/专业/技能提升/超个人心理学：五大咨询与治疗方法理论及个案演示/1-超个人心理学概述/1-超个人心理学课程介绍.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:02,616] 错误信息:获取：/壹心理7.0/专业/基础入门/心理咨询从何而来？/1-心理咨询从何而来？.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:02,747] 错误信息:获取：/壹心理7.0/专业/技能提升/结构式团体咨询/1-结构式团体/1-结构式团体练习及其应用/1-团体练习概述（1）.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:03,367] 错误信息:获取：/壹心理7.0/专业/技能提升/萨提亚家庭治疗：如何重构家庭积极系统/1-萨提亚的基本原理及应用/1-课程介绍.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:05,848] 错误信息:获取：/壹心理7.0/专业/技能提升/心理危机干预与自杀防治/1-课程预告及讲师自我介绍 - 彭旭.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:10,143] 错误信息:获取：/壹心理7.0/专业/基础入门/心理咨询从何而来？/1-心理咨询从何而来？.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:12,332] 错误信息:获取：/壹心理7.0/专业/基础入门/心理咨询如何做到一次见效？/1-心理咨询如何做到“一次有效”？.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:45,704] 错误信息:获取：/壹心理7.0/专业/基础入门/0基础入门心理咨询/1-开学仪式/1-课程介绍.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:48,808] 错误信息:获取：/壹心理7.0/专业/基础入门/参考美国，中国的心理咨询师需要学习哪些技能？/1-参考美国，中国的心理咨询师需要学习哪些技能？.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:18:55,157] 错误信息:获取：/壹心理7.0/专业/技能提升/心理咨询师如何练就“火眼金睛”/1-心理咨询师如何练就“火眼金睛”？（上）.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:19:03,329] Data must be padded to 16 byte boundary in CBC mode
+[ERROR][2019-09-26 12:34:19,203] 错误信息:获取：/壹心理7.0/专业/基础入门/风口当前，心理学行业该如何才能万物生？｜第二届中国心理学创新峰会/1-全球视角探索心理学市场新机会/1-开幕式.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:34:27,164] 错误信息:获取：/壹心理7.0/专业/基础入门/心理咨询师如何进行自我成长/1-专业版会员开学典礼（一） - 岳晓东.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:34:27,165] 错误信息:获取：/壹心理7.0/专业/基础入门/风口当前，心理学行业该如何才能万物生？｜第二届中国心理学创新峰会/1-全球视角探索心理学市场新机会/1-开幕式.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:35:07,776] 错误信息:获取：/壹心理7.0/专业/基础入门/参考美国，中国的心理咨询师需要学习哪些技能？/1-参考美国，中国的心理咨询师需要学习哪些技能？.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:35:14,184] 错误信息:获取：/壹心理7.0/专业/基础入门/新手咨询师常见50个实战问题解决/2-青少年咨询中，如何协调来访者与父母的不同诉求？.mp4的UpLoadId失败|返回信息:None
+[ERROR][2019-09-26 12:35:41,475] ('Connection aborted.', OSError("(10054, 'WSAECONNRESET')"))
+[ERROR][2019-09-26 12:35:41,476] 上传失败，正在重试
